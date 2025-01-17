@@ -1,0 +1,23 @@
+[project]
+name = "GimmeOneShot"
+version = "0.1.0"
+description = "I hate to admit that writing letter for finding jobs is hard and time consumming. So give me a chance to talk, don't just look at my resume."
+authors = [
+    {name = "Liam Nguyen",email = "liam102ca@gmail.com"}
+]
+license = {text = "GNU v3"}
+readme = "README.md"
+requires-python = ">=3.10,<4.0"
+dependencies = [
+    "langchain (>=0.3.14,<0.4.0)",
+    "typer (>=0.15.1,<0.16.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "openai (>=1.59.7,<2.0.0)",
+    "langchain-openai (>=0.3.0,<0.4.0)",
+    "pypdf (>=5.1.0,<6.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
