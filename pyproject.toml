@@ -1,7 +1,7 @@
 [project]
-name = "auto-cv"
+name = "GimmeOneShot"
 version = "0.1.0"
-description = "Generate cover letter for a job base on your resume"
+description = "I hate to admit that writing letter for finding jobs is hard and time consumming. So give me a chance to talk, don't just look at my resume."
 authors = [
     {name = "Liam Nguyen",email = "liam102ca@gmail.com"}
 ]
