@@ -18,6 +18,9 @@ app = typer.Typer()
 
 @app.command()
 def dialog():
+    """
+    TODO: this is just a test, it may not work in an actual conversational context
+    """
     model = ChatOpenAI(model="gpt-4o-mini")
 
     while True:
